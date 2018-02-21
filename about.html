@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width" />
+		<title>{{ title  }}</title>
+	</head>
+	<body>
+		<h1>About {{ title  }}</h1>
+		<p> This is a minimal django app created by {{ author }}.</p>
+		<p><a href="{% url 'index' %}">Return to homepage</a></p>
+	</body>
+</html>
